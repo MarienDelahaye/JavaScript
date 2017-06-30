@@ -38,6 +38,7 @@ return "feuille gagne !";
 else{
 return "ciseaux gagne !";
 }
+alert ("ciseaux gagne !");
 }
 if (choix1===choix2){
 return "Egalité !";
