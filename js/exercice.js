@@ -56,5 +56,6 @@ return "pierre gagne !";
 }
 }
 comparer(choixUtilisateur, choixOrdi);
+console.log("Tu as choisis: " + choixUtilisateur);
 alert("Tu as choisis: " + choixUtilisateur);
 alert("L'ordinateur a choisis: " + choixOrdi);
