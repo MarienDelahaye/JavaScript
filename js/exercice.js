@@ -9,7 +9,10 @@ choixOrdi = "feuille";
 else {
 choixOrdi = "ciseaux";
 }
-console.log("Ordinateur : " + choixOrdi);
+console.log("Tu as choisis : " + choixUtilisateur); // Ce que l'utilisateur choisis s'affiche dans la console
+console.log("L'ordinateur a choisis: " + choixOrdi); // Ce que l'ordinateur choisis s'affiche dans la console
+alert("Tu as choisis: " + choixUtilisateur); // Ce que  l'utilisateur choisis mais s'affiche sous forme d'alert
+alert("L'ordinateur a choisis: " + choixOrdi); // Ce que l'ordinateur choisis mais s'affiche sous forme d'alert
 var comparer = function(choix1, choix2){
 if (choix1===choix2)
 {
@@ -56,6 +59,3 @@ return "pierre gagne !";
 }
 }
 comparer(choixUtilisateur, choixOrdi);
-console.log("Tu as choisis: " + choixUtilisateur);
-alert("Tu as choisis: " + choixUtilisateur);
-alert("L'ordinateur a choisis: " + choixOrdi);
