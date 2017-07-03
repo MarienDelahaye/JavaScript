@@ -58,4 +58,3 @@ return "pierre gagne !";
 }
 }
 }
-comparer(choixUtilisateur, choixOrdi);
