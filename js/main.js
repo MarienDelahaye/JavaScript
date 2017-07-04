@@ -34,4 +34,4 @@ else  if (ordi<=0.67 && ordi>0.34){
 
 }
 
-alert ("ordinateur " + scoreO +" "+"vous " +scoreU +"");
+alert ("Ordinateur " + scoreO +" "+"Vous " +scoreU +"");
