@@ -25,7 +25,7 @@ else  if (ordi<=0.67 && ordi>0.34){
       || (user==="ciseaux" && ordi==="feuille")
       || (user==="feuille" && ordi==="pierre")){
         scoreU++ ;
-        alert("joueur gagne, ton score est : " + scoreU + " et le score de l'ordinateur est : " + scoreO );
+        alert("Joueur gagne, ton score est : " + scoreU + " et le score de l'Ordinateur est : " + scoreO );
       }
         else {
           scoreO++;
@@ -34,4 +34,4 @@ else  if (ordi<=0.67 && ordi>0.34){
 
 }
 
-alert ("Ordinateur " + scoreO +" "+"Vous " +scoreU +"");
+alert ("Ordinateur: " + scoreO +" "+"Vous: " +scoreU +"");
