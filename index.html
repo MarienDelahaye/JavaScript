@@ -1,4 +1,10 @@
 <!doctype html>
+<article>
+  <header>
+    <div id="titre_principal">
+                       <img src="img/header.jpg" alt="Header pfc" id="logo"/>
+  </header>
+
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -20,24 +26,27 @@
 
         <!-- Add your site or application content here -->
 <title>Pierre, feuille, ciseau</title>
-    <strong><p>Pierre, Feuille, Ciseaux</strong><p>
 <img src="img/pfc.jpg" alt="Pierre Feuille Ciseaux">
-<button onclick="myFunction()">Try it</button>
+<button onclick="myFunction()">Osera-tu me défier ?</button>
 
+<p id="demo"></p>
 
 <script>
 function myFunction() {
-    var person = prompt("Entrez votre pseudo", "Mon pseudo ?");
-    if (person != null) {
-        alert("Bienvenue " + person "Oserez-vous me défiez ?")
+    var txt;
+    var person = prompt("Entrer votre pseudo:", "MonPseudo");
+    if (person == null || person == "") {
+        txt = "Au revoir.";
+    } else {
+        txt = "Bienvenue " + person + "! Arriveras-tu à relever le défi ?";
     }
+    document.getElementById("demo").innerHTML = txt;
 }
-<script src="js/main.js"></script>
 </script>
+
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
-
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
