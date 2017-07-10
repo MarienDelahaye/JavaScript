@@ -3,7 +3,7 @@ var scoreU=0;
 
 while(scoreO!=3 && scoreU!=3){
 
- var user=prompt("pierre feuille ou ciseaux");
+ var user= prompt ("Pierre, feuille ou ciseaux")
   var ordi= Math.random();
 
 if (ordi<=0.34){
