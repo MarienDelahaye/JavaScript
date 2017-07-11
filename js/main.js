@@ -7,12 +7,18 @@ function ciseaux() {user===ciseaux
 }
 function feuille() {user===feuille
 }
-document.getElementById("pierre").addEventListener("click"),pierre()
+document.getElementById("pierre").addEventListener("click") ,pierre()
 {
-  document.getElementById("pierre").innerHTML = "Vous avez choisi pierre"
+  document.getElementById("pierre").innerHTML = + person; " A choisi pierre"
 }
-document.getElementById("ciseaux").addEventListener("click"),ciseaux();
-document.getElementById("feuille").addEventListener("click"),feuille();
+document.getElementById("ciseaux").addEventListener("click") ,ciseaux()
+{
+  document.getElementById("ciseaux").innerHTML = + person; " A choisi ciseaux"
+}
+document.getElementById("feuille").addEventListener("click") ,feuille()
+{
+ document.getElementById("feuille").innerHTML = + person; " A choisi ciseaux"
+}
 console.log (user)
 
 while(scoreO!=3 && scoreU!=3){
