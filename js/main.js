@@ -28,6 +28,7 @@ document.getElementById("p").addEventListener("mouseover"),scoreO()
 document.getElementById("p").innerHTML = "Score 0-1"
 }
 console.log (user)
+console.log (p)
 
 while(scoreO!=3 && scoreU!=3){
 
