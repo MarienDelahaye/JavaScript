@@ -1,6 +1,8 @@
 var scoreO=0;
 var scoreU=0;
 
+
+
 while(scoreO!=3 && scoreU!=3){
 
  var user= prompt ("Pierre, feuille ou ciseaux")
