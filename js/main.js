@@ -1,11 +1,18 @@
 var scoreO=0;
 var scoreU=0;
 
-
+function pierre() {user=pierre
+}
+function ciseaux() {user=ciseaux
+}
+function feuille() {user=feuille
+}
+document.getElementById("pierre").addEventListener("click",pierre());
+console.log (user)
 
 while(scoreO!=3 && scoreU!=3){
 
- var user= prompt ("Pierre, feuille ou ciseaux")
+ var user
   var ordi= Math.random();
 
 if (ordi<=0.34){
