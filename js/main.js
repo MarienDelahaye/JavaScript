@@ -6,7 +6,7 @@ function pierre() {user===pierre
 function ciseaux() {user===ciseaux
 }
 function feuille() {user===feuille
-}
+} 
 document.getElementById("pierre").addEventListener("click") ,pierre()
 {
   document.getElementById("pierre").innerHTML = + person; " A choisi pierre"
@@ -18,6 +18,14 @@ document.getElementById("ciseaux").addEventListener("click") ,ciseaux()
 document.getElementById("feuille").addEventListener("click") ,feuille()
 {
  document.getElementById("feuille").innerHTML = + person; " A choisi ciseaux"
+}
+document.getElementById("p").addEventListener("mouseover"),scoreU() 
+{
+document.getElementById("p").innerHTML = "Score 1-0"
+}
+document.getElementById("p").addEventListener("mouseover"),scoreO()
+{
+document.getElementById("p").innerHTML = "Score 0-1"
 }
 console.log (user)
 
