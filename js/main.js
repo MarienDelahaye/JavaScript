@@ -1,13 +1,18 @@
 var scoreO=0;
 var scoreU=0;
 
-function pierre() {user=pierre
+function pierre() {user===pierre
 }
-function ciseaux() {user=ciseaux
+function ciseaux() {user===ciseaux
 }
-function feuille() {user=feuille
+function feuille() {user===feuille
 }
-document.getElementById("pierre").addEventListener("click",pierre());
+document.getElementById("pierre").addEventListener("click"),pierre()
+{
+  document.getElementById("pierre").innerHTML = "Vous avez choisi pierre"
+}
+document.getElementById("ciseaux").addEventListener("click"),ciseaux();
+document.getElementById("feuille").addEventListener("click"),feuille();
 console.log (user)
 
 while(scoreO!=3 && scoreU!=3){
