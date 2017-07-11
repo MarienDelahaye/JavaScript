@@ -35,8 +35,6 @@
 <button onclick="myFunction()">Oserais-tu me défier ?</button>
 <p id="user"></p>
 <p><strong>Score: 0-0</p></strong>
-<p><strong>Choix Utilisateur:</p></strong>
-<p><strong>Choix Ordinateur:</p></strong>
 <script>
 function myFunction() {
     var txt;
@@ -44,7 +42,7 @@ function myFunction() {
     if (person == null || person == "") {
         txt = "Au revoir.";
     } else {
-        txt = "Bienvenue " + person + "! Arriveras-tu à relever le défi ?";
+        txt = "Bienvenue " + person + "! Veux tu commencer à jouer ?, Si oui, ton score s'affiche ci dessus,";
     }
     document.getElementById("user").innerHTML = txt;
 }
